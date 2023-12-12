@@ -1,0 +1,19 @@
+{
+  "name": "Test Socket IO - app",
+  "version": "1.0.0",
+  "description": "Test Socket IO - app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Gastón Eduardo Bailador",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.2"
+  }
+}

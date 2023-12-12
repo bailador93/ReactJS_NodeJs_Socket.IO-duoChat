@@ -1,0 +1,86 @@
+body {
+    background-color: #e2ffdc;
+    height: 100vh;
+}
+
+.modal {
+    background-color: #15181e !important;
+}
+
+.modal-content {
+    background-color: #07080b;
+    min-height: 50%;
+    border: 1px solid rgb(183, 183, 183);
+}
+
+.img_duochat_modal {
+    background-color: black;
+    padding: 3%;
+    border: 1px solid rgb(183, 183, 183);
+}
+
+.p_welcome_title {
+    padding: 2%;
+    color: rgb(183, 183, 183);
+}
+
+.input_data_modal_container{
+    padding: 5%;
+    width: 50vh;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.container_chatbox {
+    background-color: #07080b;
+    padding: 1%;
+    max-width: 100%;
+    height: 10%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.input_chatbox_container .control_input {
+    width: 100%;
+}
+
+.container_listchat {
+    width: 50%;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.content_listchat {
+    background-color: #15181e;
+    height: 70vh;
+    padding: 2%;
+    overflow-y: auto;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.content_dialog {
+    margin-bottom: 2%;
+}
+
+.content_dialog .card .card-header {
+    background-color: #07080b;
+    border-bottom: 3px solid #07080b;
+    border-radius: 0;
+    color: rgb(183, 183, 183) !important;
+
+}
+
+.card-footer-item {
+    justify-content: flex-start;
+}
+
+.online_container{
+    background-color: rgb(255, 255, 255);
+    padding: 2%;margin-bottom: 3%;
+    color: #07080b;
+}
